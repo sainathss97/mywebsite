@@ -1,0 +1,31 @@
+body{
+    background-color:#DAE7DD!important;
+}
+#profile-wrapper{text-align: center;}
+#profile-pic{width: 160px;height: 160px;border-radius:50%;margin-left: auto;margin-right: auto}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+.social-links ul, li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social{
+    width:30px;
+    height: 30px;
+}
+br{
+    display: display-block!important;
+}
+h3{color:#059DC0}
+h2{color:rgba(57, 50, 148, 0.767)}
+
+h5{color:#FF4500}
+
+
+a{
+    color: #a49393 !important;
+    text-decoration: none;
+
+}
