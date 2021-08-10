@@ -19,9 +19,11 @@
     <br>
     <div class = 'container'> 
         <div class='row'>
-            <div class='col-md-3'>
-                <div class='card card-body' id = 'profile-wrapper' style="height: 360px;">
-                    <img id = 'profile-pic' src="{% static '/images/mew.jpg' %}" alt="" srcset="">
+            <div class='col-md-5'>
+                <div class='card card-body' id = 'profile-wrapper' style="min-height: 280px; height: 360px; min-width: 280px;">
+                    <div class="card img-fluid" style="width:500px">
+
+                    <img id = 'profile-pic' src="{% static '/images/mew.jpg' %}" alt="" srcset=""> </div>
                     <hr>
                     <p><h5> Hi I'm Sainath </h5>
                         <p class="muted"> Looking to work on exciting technologies </p>
@@ -43,8 +45,8 @@
                 <br>
             </div>
          
-            <div class="col-md-9">
-                <div class='card card-body' style="height: 360px;">
+            <div class="col-md-7">
+                <div class='card card-body' style="height: 360px; min-height: 280px;">
                     <h2>I'm a Software Developer</h2>
                      <hr>
                     <p>Developer at cognizant technologies
@@ -60,7 +62,7 @@
                
 
             <div class='col-md-6'>
-                <div class='card card-body' style="height: 260px;">
+                <div class='card card-body' style="min-height: 260px;">
                     <h3>My Experience as a Developer</h3>
                     
                    <p>The Project which i have worked was based on Smalltalk langvauge, we were responsible to migrate a major component to Django</p>
